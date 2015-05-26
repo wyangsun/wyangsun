@@ -1,0 +1,25 @@
+<html>
+<body>
+<button id="ms" >add</button>
+<h2>404</h2>
+
+<p>
+1: <span id="jdark"></span><br />
+2: <span id="jcontacted"></span><br />
+</p>
+
+<script type="text/javascript">
+var JSONObject= {
+    "_1" : {
+       "1.1" : "功能没想好"
+    },
+    "_2" : {
+       "2.1" : "敬请期待"
+    }
+}
+document.getElementById("jdark").innerHTML=JSONObject._1["1.1"]
+document.getElementById("jcontacted").innerHTML=JSONObject._2["2.1"]
+</script>
+<script src="js/chat.js"></script>
+</body>
+</html>

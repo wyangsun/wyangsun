@@ -1,0 +1,21 @@
+<html><head><title>Web Socket Client</title></head> 
+ 
+<body> 
+ 
+<script src="js/chat.js"></script>
+
+<h3>Send :</h3> 
+ 
+<form onsubmit="return false;"> 
+ 
+<input type="text" name="message" value="Hello World!"/><input type="button" value="Send Web Socket Data" onclick="send(this.form.message.value)" /> 
+ 
+<h3>Receive :</h3> 
+ 
+<textarea id="responseText" style="width:500px;height:300px;"></textarea> 
+ 
+</form> 
+ 
+</body> 
+ 
+</html>
