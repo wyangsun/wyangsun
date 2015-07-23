@@ -6,8 +6,6 @@
 架构：
 nginx + tornado + ansible + sqlalchemy
 
-欢迎各界小白大神拍砖。
-
 部署环境：
 1.nginx配置
 ```nginx
