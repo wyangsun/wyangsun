@@ -35,6 +35,6 @@ class Playbook(Base):
 	module = Column(String(20))
 	command = Column(String(160))
 
-engine = create_engine('mysql+mysqlconnector://root:password@127.0.0.1:3306/wyangsun')
+engine = create_engine('mysql+mysqlconnector://uPFmTeILY8iQhGt9:pX3h8qlAIUSekTyNY@10.10.26.58:3306/hbMWwvYyIo4VmJpt')
 
 DBSession = sessionmaker(bind=engine)
