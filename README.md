@@ -7,7 +7,12 @@
 nginx + tornado + ansible + sqlalchemy
 
 部署环境：
-1.nginx配置
+1.python环境（centos）
+python-pip install mysql-connector-python
+python-pip install tornado
+python-pip install sqlalchemy
+python-pip install mysql
+2.nginx配置
 ```nginx
         location /js/ {
          root   /root/wyangsun/static/;
@@ -22,7 +27,7 @@ nginx + tornado + ansible + sqlalchemy
             proxy_pass  http://127.0.0.1:8000;
         }
 ```
-2.ansible配置
+3.ansible配置
 /etc/ansible/ansible.cfg:
 ```ansible
 [defaults]
