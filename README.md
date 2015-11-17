@@ -8,10 +8,15 @@ nginx + tornado + ansible + sqlalchemy
 
 部署环境：
 1.python环境（centos）
+
 python-pip install mysql-connector-python
+
 python-pip install tornado
+
 python-pip install sqlalchemy
+
 python-pip install mysql
+
 2.nginx配置
 ```nginx
         location /js/ {
