@@ -3,7 +3,6 @@ import tornado.websocket
 import tornado.ioloop
 import tornado.web
 import tornado.options
-import tornado.websocket
 import os.path
 import db,MyAnsible
 import hashlib
